@@ -1,0 +1,41 @@
+
+/*cuando neustra pantalla sea min-width : 1051px y max-width: 1780px, haremos que cambien 
+todas las class col, para que tengan un width 100%, al body le cambiaremos color, tipografia y background, 
+ademas el color del borde de nuestra imagen*/
+
+@media (min-width: 1051px) and (max-width: 1780px){
+	body{
+		background-image: url(../img/Landscape.jpg);
+		background-size: 100%;
+		overflow: auto;
+		background-repeat: no-repeat;
+
+	}
+
+}
+
+/*cuando nuestra pantalla sea min-width:551px y max-width:1050, haremos que cambien
+todas las class col, tendremos un width 100% al body le volveremos a cambiar color,
+tipografia y blackground, ademas nuestra imagen desaparecera (display:none)*/
+
+
+@media (min-width: 458px) and (max-width: 1050px){
+	body{
+		background-image: url(../img/dawn.png);
+		background-size: cover;
+		height: 100vh;	
+	}
+
+}
+
+/*cuando nuestra pantalla sea min-width:10px y max-width:550, haremos que cambien
+todas las class col, */
+
+@media (min-width: 10px) and (max-width: 457px){
+	body{
+		background-image: url(../img/maxresdefault.jpg);
+		background-size: cover;
+		height: 100vh;
+	}
+
+}
